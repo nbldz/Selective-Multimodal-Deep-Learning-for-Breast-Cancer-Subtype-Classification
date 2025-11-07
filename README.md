@@ -50,7 +50,7 @@ This repository provides an end-to-end pipeline for breast cancer subtype classi
 ### Prerequisites
 
 - Python 3.8+
-- CUDA-compatible GPU (tested on AWS p100)
+- CUDA-compatible GPU (tested on p100)
 - 16GB+ RAM recommended
 
 ### Setup on AWS EC2
@@ -365,3 +365,4 @@ This implementation is for research purposes. Please refer to the original paper
 
 
 **Happy Training! **
+
