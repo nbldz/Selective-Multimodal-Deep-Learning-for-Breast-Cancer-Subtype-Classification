@@ -50,7 +50,7 @@ This repository provides an end-to-end pipeline for breast cancer subtype classi
 ### Prerequisites
 
 - Python 3.8+
-- CUDA-compatible GPU (tested on AWS A10G)
+- CUDA-compatible GPU (tested on AWS p100)
 - 16GB+ RAM recommended
 
 ### Setup on AWS EC2
@@ -156,7 +156,7 @@ The pipeline will:
 5. Optimize routing threshold
 6. Generate visualizations and reports
 
-**Training time**: ~4-6 hours on A10G GPU for 1000 patients
+**Training time**: ~4-6 hours on p100 GPU for 1000 patients
 
 ### 3. Inference
 
@@ -362,5 +362,6 @@ This implementation is for research purposes. Please refer to the original paper
 - PyTorch and timm libraries
 
 ---
+
 
 **Happy Training! **
