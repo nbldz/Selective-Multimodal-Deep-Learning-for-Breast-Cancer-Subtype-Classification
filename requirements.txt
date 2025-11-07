@@ -1,0 +1,33 @@
+# Core dependencies for Multimodal Breast Cancer Classification
+# Python 3.8+
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+timm>=0.9.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Image Processing
+Pillow>=9.5.0
+opencv-python>=4.8.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# AWS/SSH (optional)
+paramiko>=3.0.0
+boto3>=1.26.0
+
+# Jupyter (for exploration)
+jupyter>=1.0.0
+ipywidgets>=8.0.0
